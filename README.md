@@ -11,8 +11,17 @@
 - [x] Linters: Lighthouse, Webhint, Stylelint and ESlint
 - [x] Code Editor: VS Code
 
-![Demo img (2)](https://user-images.githubusercontent.com/105444897/220972015-a5406b36-db0f-4fc0-968f-ebbf4560d9c2.png)
+
+
+
+
+
+
+
 ![Demo img (1)](https://user-images.githubusercontent.com/105444897/220972010-9069ebb3-a58c-46ca-a10c-0a7f1c705e9c.png)
+
+
+![Demo img (2)](https://user-images.githubusercontent.com/105444897/220972015-a5406b36-db0f-4fc0-968f-ebbf4560d9c2.png)
 
 This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
 
