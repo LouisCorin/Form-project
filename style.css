@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Norse-bold;
+    src: url('Norse-Bold.otf');
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-hero {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    background-color: white;
+    border: 2px solid rgb(116, 164, 116);
+    border-radius: 1vw;
+}
+
+
+.image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+}
+
+.plant-image {
+    max-width: 100%;
+    margin: 0;
+}
+
+.text-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-family: Norse-bold;
+    transform: translate(-50%, -50%) translate(10vw, 0vw);
+    z-index: 2;
+}
+
+.image-text {
+    color:#c9deb6;
+    font-size: 4vw;
+}
+.odin-image {
+    width: 8vw;
+}
+.shadow {
+    position: absolute;
+    top: 8.5vw;
+    left: 0vw;
+    width: 100%;
+    height: 13vw;
+    background-color: black;
+    opacity: 50%;
+}
+
+.paragraph {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #596D48;
+    font-size: small;
+}
+
+.right-hero {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding-left: 3vw;
+    width: 65%;
+}
+
+.form-heading {
+    margin: 10px 0px;
+    color: #596D48;
+    font-size: 2.5vw;
+}
+
+.form-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 1vw;
+  }
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+}
+
+
+.form-container {
+    margin: 0px;
+    padding-right: 15px;
+}
+
+input {
+    width: 20vw;
+    height: 2vw;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+    background-color: #eee;
+    border-radius: 0.6vw;
+}
+
+input:focus {
+    outline: none;
+    opacity: 1; 
+    background-color: rgb(149, 164, 149);
+    border-color: transparent; 
+}
+input:hover {
+    background-color: rgb(104, 117, 104);
+    border-color: transparent; 
+}
+
+input:invalid {
+    border-color: red;
+  }
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vw;
+    width: 15vw;
+    height: 3.5vw;
+    border-radius: 0.7vw;
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.login-p {
+    margin: 10px 0px;
+    font-size: 1.6vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: #5b6f4a;
+    font-size: 1.7vw;
+}   
+
+label, .error-message {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+input:required:valid {
+    border: 1px solid green;
+}
+
+input:not(.invalid) {
+    border:1px solid black;
+}
+  
+input.invalid {
+    border: 1px solid red; 
+}

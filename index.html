@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form Project</title>
+</head>
+<body>
+  <div id="wrapper">
+
+    <main class="main-hero">
+      <div class="image-container">
+        <img src="photo-1585202900225-6d3ac20a6962.avif" class="plant-image" alt="Hero image">
+        <div class="shadow"></div>
+        <div class="text-container">
+          <img src="odin-lined.png" alt="Odin img" class="odin-image">
+          <h1 class="image-text">Odin Form</h1>
+        </div>
+      </div>
+      
+      <div class="right-hero">
+        <p class="paragraph">This is not a real online service!<br>Sign up now to get started.</br></p>
+        <div class="form-container">
+          <h1 class="form-heading">Let's do this!</h1>
+          
+          <form class="form-grid">
+            <div class="form-row">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" required>
+            </div>
+            
+            <div class="form-row">
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" required>
+            </div>
+            
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-row">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-row">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-row">
+              <label for="confirm-password">Confirm Password:</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button id="submit-btn" type="submit">Create Account</button>
+          </form>
+          <p class="error-message" style="display:none;color:red;">Passwords do not match.</p>
+          
+          <p class="login-p">Already have an acount? <a href="#">Log in</a></p>
+          
+          </div>
+        </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+  </body>
+  </html>
